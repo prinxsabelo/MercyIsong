@@ -15,7 +15,7 @@ const Home: NextPage = (props:any) => {
         <title>Mercy Isong Outreach Foundation</title>
       </Head>
     </div>
-    <main className='text-gray-900 text-xl mx-6 sm:mx-28 flex flex-col space-y-32 mb-4'>
+    <main className='text-gray-900 text-xl mx-6 sm:mx-28 flex flex-col space-y-16 mb-4'>
         <Navbar />
         <Hero />
         <About />
