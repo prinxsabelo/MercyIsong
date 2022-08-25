@@ -11,7 +11,7 @@ const Footer = () => {
                     mercyisong@yahoo.co.uk
                 </div>  
             </div>
-            <div>
+            <div className='text-center sm:text-left'>
                 © {new Date().getFullYear()} Mercy Isong Outreach Foundation
             </div>
     </div>  
