@@ -23,7 +23,7 @@ const Navbar = () => {
                     <div className="w-5/6 bg-white border h-screen flex flex-col p-10">
                     <a href="/" className="flex gap-4 items-center cursor-pointer">
                         {/* <img src="/assets/ApeInLogo.png" className="w-10 h-10" alt="Ape In Logo" /> */}
-                        <h2 className="font-semibold text-xl text-gray-100">MIOF</h2>
+                        <h2 className="font-semibold text-xl">MIOF</h2>
                     </a>
                     <ul className="lg:hidden flex flex-col mt-16 gap-10">
                         <li onClick={()=>setSideNav(false)} className="w-fit active:text-active active:underline  font-semibold tracking-wide"><Link href='#home'>Home</Link></li>
