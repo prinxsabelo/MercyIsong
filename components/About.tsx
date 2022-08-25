@@ -2,10 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='mt-16 sm:mt-40 flex flex-col space-y-4 sm:space-y-2 text-2xl'>
+    <div id="about" className='mt-16 sm:mt-40 flex flex-col space-y-4 sm:space-y-2 text-2xl'>
+        <div className='lg:h-16'> </div>
+
         <p>
           Mercy Isong Outreach Foundation is a nationwide movement built 
-          to empower to widows of all ages in their time of need from churches and communities.
+          to empower widows of all ages in their time of need from churches and communities.
         </p>
         <p>We are one body in Christ with the responsibility to provide 
               spiritual, charitable and financial support to widows in need.
